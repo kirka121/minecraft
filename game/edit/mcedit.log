@@ -1,0 +1,528 @@
+[    INFO][     OpenGL.GLUT.special.py:34]:Using NT-specific GLUT calls with exit callbacks
+[    INFO][    pymclevel.materials.py:166]:Loading block info from <cStringIO.StringI object at 0x03189F20>
+[    INFO][    pymclevel.materials.py:166]:Loading block info from <cStringIO.StringI object at 0x03DEC200>
+[    INFO][    pymclevel.materials.py:166]:Loading block info from <cStringIO.StringI object at 0x03DEC200>
+[    INFO][    pymclevel.materials.py:166]:Loading block info from <cStringIO.StringI object at 0x03DEC200>
+[    INFO][                 config.py:142]:Loading config...
+[   DEBUG][                 config.py:298]:Setting {section => Fill}
+[   DEBUG][                 config.py:298]:Setting {chooseBlockImmediately => Setting(Fill, Choose Block Immediately, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {section => Selection}
+[   DEBUG][                 config.py:298]:Setting {showPreviousSelection => Setting(Selection, Show Previous Selection, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {color => Setting(Selection, Color, <type 'str'>, teal}
+[   DEBUG][                 config.py:298]:Setting {section => Selection Colors}
+[   DEBUG][                 config.py:298]:Setting {defaultColors => {}}
+[   DEBUG][                 config.py:298]:Setting {Setting => <class 'editortools.select.ColorSetting'>}
+[   DEBUG][                 config.py:298]:Setting {section => Brush}
+[   DEBUG][                 config.py:298]:Setting {brushSizeL => Setting(Brush, Brush Shape L, <type 'int'>, 3}
+[   DEBUG][                 config.py:298]:Setting {brushSizeH => Setting(Brush, Brush Shape H, <type 'int'>, 3}
+[   DEBUG][                 config.py:298]:Setting {brushSizeW => Setting(Brush, Brush Shape W, <type 'int'>, 3}
+[   DEBUG][                 config.py:298]:Setting {updateBrushOffset => Setting(Brush, Update Brush Offset, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {chooseBlockImmediately => Setting(Brush, Choose Block Immediately, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {alpha => Setting(Brush, Alpha, <type 'float'>, 0.66}
+[   DEBUG][                 config.py:298]:Setting {section => Clone}
+[   DEBUG][                 config.py:298]:Setting {copyAir => Setting(Clone, Copy Air, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {copyWater => Setting(Clone, Copy Water, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {copyBiomes => Setting(Clone, Copy Biomes, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {placeImmediately => Setting(Clone, Place Immediately, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {section => Spawn}
+[   DEBUG][                 config.py:298]:Setting {spawnProtection => Setting(Spawn, Spawn Protection, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {section => Settings}
+[   DEBUG][                 config.py:298]:Setting {flyMode => Setting(Settings, Fly Mode, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {enableMouseLag => Setting(Settings, Enable Mouse Lag, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {longDistanceMode => Setting(Settings, Long Distance Mode, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {shouldResizeAlert => Setting(Settings, Window Size Alert, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {closeMinecraftWarning => Setting(Settings, Close Minecraft Warning, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {skin => Setting(Settings, MCEdit Skin, <type 'str'>, [Current]}
+[   DEBUG][                 config.py:298]:Setting {fov => Setting(Settings, Field of View, <type 'float'>, 70.0}
+[   DEBUG][                 config.py:298]:Setting {spaceHeight => Setting(Settings, Space Height, <type 'int'>, 64}
+[   DEBUG][                 config.py:298]:Setting {blockBuffer => Setting(Settings, Block Buffer, <type 'int'>, 268435456}
+[   DEBUG][                 config.py:298]:Setting {reportCrashes => Setting(Settings, report crashes new, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {reportCrashesAsked => Setting(Settings, report crashes asked, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {viewDistance => Setting(Settings, View Distance, <type 'int'>, 8}
+[   DEBUG][                 config.py:298]:Setting {targetFPS => Setting(Settings, Target FPS, <type 'int'>, 30}
+[   DEBUG][                 config.py:298]:Setting {windowWidth => Setting(Settings, window width, <type 'int'>, 1024}
+[   DEBUG][                 config.py:298]:Setting {windowHeight => Setting(Settings, window height, <type 'int'>, 768}
+[   DEBUG][                 config.py:298]:Setting {windowX => Setting(Settings, window x, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {windowY => Setting(Settings, window y, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {windowShowCmd => Setting(Settings, window showcmd, <type 'int'>, 1}
+[   DEBUG][                 config.py:298]:Setting {setWindowPlacement => Setting(Settings, SetWindowPlacement, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {showHiddenOres => Setting(Settings, show hidden ores, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {fastLeaves => Setting(Settings, fast leaves, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {roughGraphics => Setting(Settings, rough graphics, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {showChunkRedraw => Setting(Settings, show chunk redraw, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawSky => Setting(Settings, draw sky, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawFog => Setting(Settings, draw fog, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {showCeiling => Setting(Settings, show ceiling, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawEntities => Setting(Settings, draw entities, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawMonsters => Setting(Settings, draw monsters, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawItems => Setting(Settings, draw items, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawTileEntities => Setting(Settings, draw tile entities, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawTileTicks => Setting(Settings, draw tile ticks, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {drawUnpopulatedChunks => Setting(Settings, draw unpopulated chunks, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {vertexBufferLimit => Setting(Settings, vertex buffer limit, <type 'int'>, 384}
+[   DEBUG][                 config.py:298]:Setting {vsync => Setting(Settings, vertical sync, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {visibilityCheck => Setting(Settings, visibility check, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {viewMode => Setting(Settings, View Mode, <type 'str'>, Camera}
+[   DEBUG][                 config.py:298]:Setting {undoLimit => Setting(Settings, Undo Limit, <type 'int'>, 20}
+[   DEBUG][                 config.py:298]:Setting {section => Controls}
+[   DEBUG][                 config.py:298]:Setting {mouseSpeed => Setting(Controls, mouse speed, <type 'float'>, 5.0}
+[   DEBUG][                 config.py:298]:Setting {cameraAccel => Setting(Controls, camera acceleration, <type 'float'>, 125.0}
+[   DEBUG][                 config.py:298]:Setting {cameraDrag => Setting(Controls, camera drag, <type 'float'>, 100.0}
+[   DEBUG][                 config.py:298]:Setting {cameraMaxSpeed => Setting(Controls, camera maximum speed, <type 'float'>, 60.0}
+[   DEBUG][                 config.py:298]:Setting {cameraBrakingSpeed => Setting(Controls, camera braking speed, <type 'float'>, 8.0}
+[   DEBUG][                 config.py:298]:Setting {invertMousePitch => Setting(Controls, invert mouse pitch, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {autobrake => Setting(Controls, autobrake, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {swapAxes => Setting(Controls, swap axes looking down, <type 'bool'>, False}
+[   DEBUG][                 config.py:220]:Subscribing <squash_python.SquashClient object at 0x0442BED0>._enabled
+[   DEBUG][                 config.py:185]:Property Change:        Settings             SetWindowPlacement = False
+[   DEBUG][                 config.py:185]:Property Change:        Settings             SetWindowPlacement = True
+[   DEBUG][                 config.py:298]:Setting {section => Settings}
+[   DEBUG][                 config.py:298]:Setting {flyMode => Setting(Settings, Fly Mode, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {enableMouseLag => Setting(Settings, Enable Mouse Lag, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {longDistanceMode => Setting(Settings, Long Distance Mode, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {shouldResizeAlert => Setting(Settings, Window Size Alert, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {closeMinecraftWarning => Setting(Settings, Close Minecraft Warning, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {skin => Setting(Settings, MCEdit Skin, <type 'str'>, [Current]}
+[   DEBUG][                 config.py:298]:Setting {fov => Setting(Settings, Field of View, <type 'float'>, 70.0}
+[   DEBUG][                 config.py:298]:Setting {spaceHeight => Setting(Settings, Space Height, <type 'int'>, 64}
+[   DEBUG][                 config.py:298]:Setting {blockBuffer => Setting(Settings, Block Buffer, <type 'int'>, 268435456}
+[   DEBUG][                 config.py:298]:Setting {reportCrashes => Setting(Settings, report crashes new, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {reportCrashesAsked => Setting(Settings, report crashes asked, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {viewDistance => Setting(Settings, View Distance, <type 'int'>, 8}
+[   DEBUG][                 config.py:298]:Setting {targetFPS => Setting(Settings, Target FPS, <type 'int'>, 30}
+[   DEBUG][                 config.py:298]:Setting {windowWidth => Setting(Settings, window width, <type 'int'>, 1024}
+[   DEBUG][                 config.py:298]:Setting {windowHeight => Setting(Settings, window height, <type 'int'>, 768}
+[   DEBUG][                 config.py:298]:Setting {windowX => Setting(Settings, window x, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {windowY => Setting(Settings, window y, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {windowShowCmd => Setting(Settings, window showcmd, <type 'int'>, 1}
+[   DEBUG][                 config.py:298]:Setting {setWindowPlacement => Setting(Settings, SetWindowPlacement, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {showHiddenOres => Setting(Settings, show hidden ores, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {fastLeaves => Setting(Settings, fast leaves, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {roughGraphics => Setting(Settings, rough graphics, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {showChunkRedraw => Setting(Settings, show chunk redraw, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawSky => Setting(Settings, draw sky, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawFog => Setting(Settings, draw fog, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {showCeiling => Setting(Settings, show ceiling, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawEntities => Setting(Settings, draw entities, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawMonsters => Setting(Settings, draw monsters, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawItems => Setting(Settings, draw items, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawTileEntities => Setting(Settings, draw tile entities, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {drawTileTicks => Setting(Settings, draw tile ticks, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {drawUnpopulatedChunks => Setting(Settings, draw unpopulated chunks, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {vertexBufferLimit => Setting(Settings, vertex buffer limit, <type 'int'>, 384}
+[   DEBUG][                 config.py:298]:Setting {vsync => Setting(Settings, vertical sync, <type 'int'>, 0}
+[   DEBUG][                 config.py:298]:Setting {visibilityCheck => Setting(Settings, visibility check, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {viewMode => Setting(Settings, View Mode, <type 'str'>, Camera}
+[   DEBUG][                 config.py:298]:Setting {undoLimit => Setting(Settings, Undo Limit, <type 'int'>, 20}
+[   DEBUG][                 config.py:298]:Setting {section => Controls}
+[   DEBUG][                 config.py:298]:Setting {mouseSpeed => Setting(Controls, mouse speed, <type 'float'>, 5.0}
+[   DEBUG][                 config.py:298]:Setting {cameraAccel => Setting(Controls, camera acceleration, <type 'float'>, 125.0}
+[   DEBUG][                 config.py:298]:Setting {cameraDrag => Setting(Controls, camera drag, <type 'float'>, 100.0}
+[   DEBUG][                 config.py:298]:Setting {cameraMaxSpeed => Setting(Controls, camera maximum speed, <type 'float'>, 60.0}
+[   DEBUG][                 config.py:298]:Setting {cameraBrakingSpeed => Setting(Controls, camera braking speed, <type 'float'>, 8.0}
+[   DEBUG][                 config.py:298]:Setting {invertMousePitch => Setting(Controls, invert mouse pitch, <type 'bool'>, False}
+[   DEBUG][                 config.py:298]:Setting {autobrake => Setting(Controls, autobrake, <type 'bool'>, True}
+[   DEBUG][                 config.py:298]:Setting {swapAxes => Setting(Controls, swap axes looking down, <type 'bool'>, False}
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.MCRenderer object at 0x045B4730>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.drawSky
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.drawFog
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.showCeiling
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.accelFactor
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.maxSpeed
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.brakeMaxSpeed
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.invertMousePitch
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.autobrake
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.swapAxesLookingDown
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.visibilityCheck
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.CameraViewport object at 0x045BE0F0>.fovSetting
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.drawSky
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.drawFog
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.showCeiling
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.accelFactor
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.maxSpeed
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.brakeMaxSpeed
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.invertMousePitch
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.autobrake
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.swapAxesLookingDown
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.visibilityCheck
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.ChunkViewport object at 0x045BE2F0>.fovSetting
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.LevelEditor object at 0x0443EAF0>.viewMode
+[   DEBUG][                 config.py:220]:Subscribing <leveleditor.LevelEditor object at 0x0443EAF0>.undoLimit
+[   DEBUG][                 config.py:220]:Subscribing <editortools.brush.BrushTool object at 0x045C2030>.updateBrushOffset
+[   DEBUG][                 config.py:220]:Subscribing <editortools.brush.BrushTool object at 0x045C2030>.brushSizeW
+[   DEBUG][                 config.py:220]:Subscribing <editortools.brush.BrushTool object at 0x045C2030>.brushSizeH
+[   DEBUG][                 config.py:220]:Subscribing <editortools.brush.BrushTool object at 0x045C2030>.brushSizeL
+[    INFO][pymclevel.infiniteworld.py:1306]:Found dimension DIM-1
+[    INFO][pymclevel.infiniteworld.py:1306]:Found dimension DIM1
+[   ERROR][                   root.py:912]:Error while checking for updates
+Traceback (most recent call last):
+  File "mcedit.py", line 908, in main
+  File "esky\__init__.pyo", line 787, in find_update
+  File "esky\finder.pyo", line 184, in find_versions
+  File "esky\finder.pyo", line 164, in open_url
+  File "urllib2.pyo", line 126, in urlopen
+  File "urllib2.pyo", line 406, in open
+  File "urllib2.pyo", line 519, in http_response
+  File "urllib2.pyo", line 444, in error
+  File "urllib2.pyo", line 378, in _call_chain
+  File "urllib2.pyo", line 527, in http_error_default
+HTTPError: HTTP Error 503: Service Temporarily Unavailable
+[    INFO][      pymclevel.mclevel.py:196]:Identifying C:\Users\Sync\AppData\Roaming\.minecraft\saves\world
+[    INFO][      pymclevel.mclevel.py:213]:Detected Infdev level.dat
+[    INFO][pymclevel.infiniteworld.py:1306]:Found dimension DIM-1
+[    INFO][pymclevel.infiniteworld.py:1306]:Found dimension DIM1
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x04633870>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x04633870>.roughGraphics
+[    INFO][pymclevel.infiniteworld.py:1325]:Scanning for regions...
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-1.-1.mca with 344/344 sectors used and 342 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-1.0.mca with 1070/1128 sectors used and 1024 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-1.1.mca with 466/469 sectors used and 460 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-2.-1.mca with 17/17 sectors used and 15 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-2.0.mca with 180/180 sectors used and 177 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.-2.1.mca with 35/35 sectors used and 33 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.0.-1.mca with 138/138 sectors used and 136 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.0.0.mca with 490/490 sectors used and 488 chunks present
+[    INFO][    pymclevel.regionfile.py:91]:Found region file r.0.1.mca with 127/127 sectors used and 125 chunks present
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (541, 360)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (0, 354)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (517, 365)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (509, 370)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (646, 396)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (814, 387)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (627, 394)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (212, 427)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (496, 576)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (879, 687)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (501, 350)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (369, 275)
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (524, 377)
+[   DEBUG][                  root.py:1010]:Mouse up   1 @ (524, 377)
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (589, 393)
+[   DEBUG][                  root.py:1010]:Mouse up   1 @ (589, 393)
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (769, 414)
+[   DEBUG][                  root.py:1010]:Mouse up   1 @ (769, 414)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (585, 362)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (589, 374)
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x134237F0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x13423830>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x13423830>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099ECF50>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099ECD50>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099ECD50>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x12414B70>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x12414D50>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x12414D50>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C15130>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099E52B0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099E52B0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x10C1AFF0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x10C1A8F0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x10C1A8F0>.roughGraphics
+[    INFO][       OpenGL.extensions.py:79]:OpenGL Version: 4.2.11762 Compatibility Profile Context
+[    INFO][      OpenGL.extensions.py:135]:GL Extension GL_ARB_framebuffer_object available
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glGenFramebuffers from glGenFramebuffers, glGenFramebuffersEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glGenRenderbuffers from glGenRenderbuffers, glGenRenderbuffersEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glBindFramebuffer from glBindFramebuffer, glBindFramebufferEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glBindRenderbuffer from glBindRenderbuffer, glBindRenderbufferEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glRenderbufferStorage from glRenderbufferStorage, glRenderbufferStorageEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glFramebufferRenderbuffer from glFramebufferRenderbuffer, glFramebufferRenderbufferEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glFramebufferTexture2D from glFramebufferTexture2D, glFramebufferTexture2DEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glCheckFramebufferStatus from glCheckFramebufferStatus, glCheckFramebufferStatusEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glDeleteFramebuffers from glDeleteFramebuffers, glDeleteFramebuffersEXT
+[    INFO][      OpenGL.extensions.py:169]:Chose alternate: glDeleteRenderbuffers from glDeleteRenderbuffers, glDeleteRenderbuffersEXT
+[   DEBUG][                  root.py:2211]:Mouse left
+[   DEBUG][                  root.py:2216]:Mouse entered
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (616, 410)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (616, 410)
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (616, 410)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (616, 410)
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (616, 411)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (616, 411)
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (613, 409)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (613, 409)
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (610, 398)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (610, 398)
+[   DEBUG][                   root.py:992]:Mouse down 5 @ (610, 398)
+[   DEBUG][                  root.py:1010]:Mouse up   5 @ (610, 398)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (609, 537)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (685, 633)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (549, 404)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (546, 405)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (502, 393)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (549, 404)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 453)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (562, 452)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 453)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 453)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 453)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 453)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 453)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (516, 466)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (516, 466)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (471, 500)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (516, 466)
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (680, 499)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (680, 499)
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (680, 499)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (680, 499)
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (680, 499)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (680, 499)
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4749F0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x0A474A90>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x0A474A90>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1992C350>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x1992C3D0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x1992C3D0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x0A4745D0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x0A474A50>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x0A474A50>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FE70>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x1617FFD0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x1617FFD0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x1617FF90>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x14780830>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x14780830>.roughGraphics
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (662, 380)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (662, 380)
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (662, 380)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (662, 380)
+[   DEBUG][                   root.py:992]:Mouse down 4 @ (662, 380)
+[   DEBUG][                  root.py:1010]:Mouse up   4 @ (662, 380)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (664, 169)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (0, 157)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (532, 344)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 344)
+[   DEBUG][                   root.py:992]:Mouse down 2 @ (533, 333)
+[   DEBUG][                  root.py:1010]:Mouse up   2 @ (532, 344)
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (522, 364)
+[   DEBUG][                  root.py:1010]:Mouse up   1 @ (522, 364)
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (522, 364)
+[   ERROR][                    root.py:53]:Exception:
+Traceback (most recent call last):
+  File "mceutils.pyo", line 46, in _alertException
+  File "leveleditor.pyo", line 917, in editContainer
+  File "albow\widget.pyo", line 494, in present
+  File "albow\root.pyo", line 198, in run_modal
+  File "albow\widget.pyo", line 353, in handle_mouse
+  File "albow\widget.pyo", line 434, in call_handler
+  File "albow\fields.pyo", line 338, in mouse_down
+  File "albow\fields.pyo", line 331, in decrease_value
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+[   DEBUG][                   root.py:992]:Mouse down 1 @ (559, 461)
+[   DEBUG][                  root.py:1010]:Mouse up   1 @ (559, 461)
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0730>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099D0F10>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099D0F10>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x19936AD0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936A10>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936A10>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199363F0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936190>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936190>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x199364F0>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936170>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x19936170>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.roughGraphics
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.showHiddenOres
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.vertexBufferLimit
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawTileEntities
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawTileTicks
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawTerrainPopulated
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawMonsters
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.drawItems
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.showRedraw
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.spaceHeight
+[   DEBUG][                 config.py:220]:Subscribing <renderer.PreviewRenderer object at 0x099D0B50>.targetFPS
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099D09B0>.fastLeaves
+[   DEBUG][                 config.py:220]:Subscribing <renderer.ChunkCalculator object at 0x099D09B0>.roughGraphics
+[   DEBUG][                  root.py:2211]:Mouse left
+[   DEBUG][                 config.py:185]:Property Change:        Settings                       window x = 66
+[   DEBUG][                 config.py:185]:Property Change:        Settings                       window y = 66
+[   DEBUG][                 config.py:185]:Property Change:        Settings                 window showcmd = 1
